@@ -19,6 +19,6 @@ app.get('/about',middleware.requestTime, function (req, res) {
 	//res.send(text);
 });
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/Public'));
 
 app.listen(PORT);
